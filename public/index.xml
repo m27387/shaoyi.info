@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Curriculum Vitae on shaoyi.info</title>
-    <link>https://m27387.github.io/shaoyi.info/</link>
-    <description>Recent content in Curriculum Vitae on shaoyi.info</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>© 2024 Shaoyi Lai</copyright>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://m27387.github.io/shaoyi.info/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Curriculum Vitae on shaoyi.info</title><link>http://localhost:1313/shaoyi.info/</link><description>Recent content in Curriculum Vitae on shaoyi.info</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2024 Shaoyi Lai</copyright><lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/shaoyi.info/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
