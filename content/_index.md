@@ -9,9 +9,9 @@ type: 'homepage'
 
 
 ## Introduction
-Shaoyi Lai is a dedicated Public Affairs Officer adept at enhancing the military's public image through innovative communications, including press releases, print materials, and digital resources. He excels in building strong relationships with media professionals and social influencers to effectively relay defense-related policies.  
+Shaoyi Lai was a dedicated Public Affairs Officer adept at enhancing the military's public image through innovative communications, including press releases, print materials, and digital resources. He excels in building strong relationships with media professionals and social influencers to effectively relay defense-related policies.  
   
-Beyond his primary role, Shaoyi also enjoys exploring his creative side as an amateur website and graphic designer, and humorously notes his less-than-stellar musical talents.
+Beyond his previous roles, Shaoyi is currently serving as a military counselor. He also enjoys exploring his less-talented creative side as an amateur website and graphic designer, and his less-than-stellar musical talents.
 
 [📢 Pronounced Shàoyì in Mandarin](https://voca.ro/12SteQV3fTDZ)
 
@@ -238,8 +238,16 @@ With other shortcodes
 - Music performancer at Taoyuan Veterans Home in Sep 2010
 - Documentary producer and community service at Da-Ai Indigenous Tribe in Aug 2009
 
+<!-- loop=true -->
 ## Footprints
-Randomly share places I have been to. Hope you like it like I do. 😊
+{{< typeit 
+  speed=50
+  breakLines=false
+  lifeLike=true
+>}}
+Randomly share places I have been to. Hope you like it like I do. 😊  
+{{< /typeit >}}
+
 
 **Taiwan**
 {{< gallery >}}
