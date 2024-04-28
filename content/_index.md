@@ -12,6 +12,7 @@ type: 'homepage'
 Shaoyi Lai is a dedicated Public Affairs Officer adept at enhancing the military's public image through innovative communications, including press releases, print materials, and digital resources. He excels in building strong relationships with media professionals and social influencers to effectively relay defense-related policies.  
   
 Beyond his primary role, Shaoyi also enjoys exploring his creative side as an amateur website and graphic designer, and humorously notes his less-than-stellar musical talents.
+
 [📢 Pronounced Shàoyì in Mandarin](https://voca.ro/12SteQV3fTDZ)
 
   <div class="w-full mt-10">
