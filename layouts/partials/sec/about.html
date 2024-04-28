@@ -1,0 +1,40 @@
+{{ $sectionID := replace (lower .section.name) " " "-"  }}
+{{ if .section.id }}
+  {{ $sectionID = .section.id }}
+{{ end }}
+
+{{ $author:= site.Data.about }}
+{{ if (index site.Data site.Language.Lang).about }}
+  {{ $author = (index site.Data site.Language.Lang).about }}
+{{ end }}
+
+
+{{ $author.bio | markdownify }}
+{{ $author.type | markdownify }}
+
+{{ range $quotations := $author.quotations }}
+"{{ $quotations }}", 
+{{ end }}
+
+
+
+<div id="typeit-333"></div>
+    
+   
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-333", {
+        strings: [{{ range $quotations := $author.quotations }}
+        "{{ . }}", 
+        {{ end }}],
+        speed:  100 ,
+        lifeLike:  false ,
+        startDelay:  0 ,
+        breakLines:  true ,
+        waitUntilVisible:  true ,
+        breakLines: false,
+        loop:  true 
+      }).go();
+    });
+</script>
+

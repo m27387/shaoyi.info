@@ -1,0 +1,261 @@
+{{/*  {{ $author:= site.Data.author }}
+{{ if (index site.Data site.Language.Lang).author }}
+{{ $author = (index site.Data site.Language.Lang).author }}
+{{ end }}
+
+{{ $name:="Jane Doe" }}
+{{ if $author.nickname }}
+{{ $name = $author.nickname }}
+{{ else if $author.name }}
+{{ $name = $author.name }}
+{{ end }}
+
+{{ $name }}
+
+{{ range $discography := site.Data.author.discography }}
+<p>
+    {{ $discography }}
+</p>
+{{ end }}
+
+{{ range $wtf := site.Data.author.wtf }}
+{{ range $name, $wobuzhidao := $wtf}}
+<p>
+    {{ $name }} <br>
+    {{ $wobuzhidao }}
+</p>
+{{ end }}
+{{ end }}  */}}
+
+
+
+
+{{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
+<article class="max-w-full prose dark:prose-invert">
+    <div class="relative">
+        <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
+        <div class="mx-auto max-w-7xl p-0">
+            <div class="relative shadow-xl sm:overflow-hidden rounded-2xl">
+                <div class="absolute inset-0">
+                    {{/*  {{ .Site.Params.homepage.homepageImage }}  */}}
+                    {{ $homepageImage := "" }}
+                    {{ with .Site.Params.defaultBackgroundImage }}
+                        {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+                            {{ $homepageImage = resources.GetRemote . }}
+                        {{ else }}
+                            {{ $homepageImage = resources.Get . }}
+                        {{ end }}
+                    {{ end }}
+                    {{ with .Site.Params.homepage.homepageImage }}
+                        {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+                            {{ $homepageImage = resources.GetRemote . }}
+                        {{ else }}
+                            {{ $homepageImage = resources.Get . }}
+                        {{ end }}
+                    {{ end }}
+                    {{ if $homepageImage }}
+                    <img class="h-full blur-md w-full object-cover m-0 nozoom" src="{{ $homepageImage.RelPermalink }}">
+                       {{/*  遮罩濾鏡  */}}
+                    <div class="absolute inset-0 bg-gradient-to-r from-primary-500 to-secondary-600 dark:from-primary-600 dark:to-secondary-800 mix-blend-multiply">
+                    </div>
+                    {{ end }}
+                </div>
+                
+                <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8 flex flex-col items-center justify-center text-center">
+                    {{ with .Site.Author.image }}
+                        {{ $authorImage := "" }}
+                        {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+                            {{ $authorImage = resources.GetRemote . }}
+                        {{ else }}
+                            {{ $authorImage = resources.Get . }}
+                        {{ end }}
+                        {{ if $authorImage }}
+                            {{ if not $disableImageOptimization }}
+                                {{ $authorImage = $authorImage.Fill "288x288" }}
+                            {{ end }}
+                            <img class="mb-2 rounded-full h-36 w-36" width="144" height="144"
+                                alt="{{ $.Site.Author.name | default " Author" }}" src="{{ $authorImage.RelPermalink }}" />
+                        {{ end }}
+                    {{ end }}
+                    <h1 class="mb-2 text-4xl font-extrabold text-neutral-200">
+                        {{ .Site.Author.name | default .Site.Title }}
+                    </h1>
+                    {{/*  {{ with .Site.Author.headline }}
+                    <h2 class="mt-0 mb-0 text-xl text-neutral-300">
+                        {{ . | markdownify | emojify }}
+                    </h2>
+                    {{ end }}  */}}
+
+                    <div class="mt-3 mb-10 text-2xl">
+                      {{ with .Site.Author.links }}
+                      <div class="flex flex-wrap">
+                          {{ range $links := . }}
+                          {{ range $name, $url := $links }}
+                          <a class="px-1 hover:text-primary-400 text-primary-300" href="{{ $url }}" target="_blank"
+                              aria-label="{{ $name | title }}" rel="me noopener noreferrer">{{ partial
+                              "icon.html" $name }}</a>
+                          {{ end }}
+                          {{ end }}
+                      </div>
+                      {{ end }}
+                  </div>
+
+                      <h2 class="mt-0 mb-0 text-xl text-neutral-300">
+                      {{ with .Site.Author.quotations }}
+                        <p id="quotations"></p>
+
+                        <script>
+                          document.addEventListener("DOMContentLoaded", function () {
+                            new TypeIt("#quotations", {
+                              strings: [{{ range $quotations := . }}
+                              "{{ . }}", 
+                              {{ end }}],
+                              speed:  50 ,
+                              lifeLike:  true ,
+                              startDelay:  0 ,
+                              breakLines:  true ,
+                              waitUntilVisible:  true ,
+                              breakLines: false,
+                              loop:  true ,
+                              nextStringDelay: [2000, 1000],
+                              loopDelay: [2000, 1000]
+                            }).go();
+                          });
+                      </script>
+
+                      {{/*  {{ range $quotations := . }}
+                      <a class="px-1 hover:text-primary-400 text-primary-300" href="" target="_blank"
+                          aria-label="{{ $quotations | title }}" rel="me noopener noreferrer">{{ $quotations }}</a>
+                      {{ end }}  */}}
+                        {{ end }}
+                      </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+<header id="single_header" class="mt-5 max-w-prose">
+    <!-- {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
+    {{ partial "breadcrumbs.html" . }}
+    {{ end }}
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      {{ .Title | emojify }}
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      {{ partial "article-meta/basic.html" (dict "context" . "scope" "single") }}
+    </div> -->
+
+    {{ $authorsData := .Site.Data.authors }}
+    {{ $taxonomies := .Site.Taxonomies.authors }}
+    {{ $baseURL := .Site.BaseURL }}
+    {{ $taxonomyLink := 0 }}
+    {{ $showAuthor := 0 }}
+    {{ if not (strings.HasSuffix $baseURL "/") }}
+    {{ $baseURL = delimit (slice $baseURL "/") "" }}
+    {{ end }}
+
+    <!-- {{ if not (.Params.showAuthorBottom | default ( .Site.Params.article.showAuthorBottom | default false)) }}
+      
+      {{ if .Params.showAuthor | default (.Site.Params.article.showAuthor | default true) }}
+        {{ $showAuthor = 1 }}
+        {{ partial "author.html" . }}
+      {{ end }}
+
+      {{ range $author := .Page.Params.authors }}
+        {{ $authorData := index $authorsData $author }}
+        {{- if $authorData -}}
+          {{ range $taxonomyname, $taxonomy := $taxonomies }}
+            {{ if (eq $taxonomyname $author) }}
+              {{ $taxonomyLink = delimit (slice $baseURL "/authors/" $author) "" }}
+            {{ end }}
+          {{ end }}
+          {{ partial "author-extra.html" (dict "context" . "data" $authorData "link" $taxonomyLink) }}
+        {{- end -}}
+      {{ end }}
+
+      {{ if or $taxonomyLink $showAuthor }}
+      <div class="mb-5"></div>
+      {{ end }}
+
+    {{ end }} -->
+
+  </header>
+<section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    {{ if or (and (.Params.showTableOfContents | default (.Site.Params.article.showTableOfContents | default false)) (in
+        .TableOfContents "<ul")) (.Site.Params.article.showRelatedPosts | default false) }} <div
+          class="mt-4 order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+          <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky {{ if hasPrefix .Site.Params.header.layout "fixed" -}}
+            lg:top-[140px]{{ else }}lg:top-10{{ end }}">
+    
+            {{ if and (.Params.showTableOfContents | default (.Site.Params.article.showTableOfContents | default false)) (in
+            .TableOfContents "<ul") }} {{ partial "toc.html" . }} {{ end }} {{ if .Site.Params.article.showRelatedPosts |
+              default false }} sd {{ end }} </div>
+          </div>
+          {{ end }}
+    
+          <div class="min-w-0 min-h-0 max-w-fit">
+            
+            {{ partial "series/series.html" . }}
+            
+            <div class="article-content max-w-prose mb-20">
+             
+                {{/*  {{ partial "sec/about.html" }}  */}}
+          
+              {{ .Content | emojify }}
+            </div>
+            
+            {{ if (.Params.showAuthorBottom | default ( .Site.Params.article.showAuthorBottom | default false)) }}
+    
+              {{ if .Params.showAuthor | default (.Site.Params.article.showAuthor | default true) }}
+                {{ $showAuthor = 1 }}
+                {{ partial "author.html" . }}
+              {{ end }}
+    
+              {{ range $author := .Page.Params.authors }}
+                {{ $authorData := index $authorsData $author }}
+                {{- if $authorData -}}
+                  {{ range $taxonomyname, $taxonomy := $taxonomies }}
+                    {{ if (eq $taxonomyname $author) }}
+                      {{ $taxonomyLink = delimit (slice $baseURL "/authors/" $author) "" }}
+                    {{ end }}
+                  {{ end }}
+                  {{ partial "author-extra.html" (dict "context" . "data" $authorData "link" $taxonomyLink) }}
+                {{- end -}}
+              {{ end }}
+    
+              {{ if or $taxonomyLink $showAuthor }}
+              <div class="mb-10"></div>
+              {{ end }}
+    
+            {{ end }}
+    
+            {{ partial "series/series-closed.html" . }}
+            {{ partial "sharing-links.html" . }}
+            {{ partial "related.html" . }}  
+          </div>
+         
+          {{ $translations := .AllTranslations }}
+          {{ with .File }}
+            {{ $path := .Path }}
+            {{range $translations}}
+              {{ $lang := print "."  .Lang  ".md" }}
+              {{ $path = replace $path $lang ".md" }}
+            {{end}}
+          <script>
+            var oid = "views_{{ $path }}"
+            var oid_likes = "likes_{{ $path }}"
+          </script>
+          {{ end }}
+          {{ $jsPage := resources.Get "js/page.js" }}
+          {{ $jsPage = $jsPage | resources.Minify | resources.Fingerprint "sha512" }}
+          <script type="text/javascript" src="{{ $jsPage.RelPermalink }}" integrity="{{ $jsPage.Data.Integrity }}"></script>
+</section>
+<!-- <section class="max-w-full prose dark:prose-invert">
+    <div class=""relative>
+      {{ partial "home/test.html" }}  
+      {{ partial "sec/about.html" }}  
+</div>
+</section>  -->
+<section>
+    {{ partial "recent-articles/main.html" . }}
+</section>

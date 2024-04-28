@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://m27387.github.io/shaoyi.info/sitemap.xml
