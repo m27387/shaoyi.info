@@ -38,6 +38,13 @@
   {{ if not $cssScheme }}
   {{ $cssScheme = resources.Get "css/schemes/avocado.css" }}
   {{ end }}
+
+  {{/*  原始版 {{ $cssScheme := resources.Get (printf "css/schemes/%s.css" (.Site.Params.colorScheme | default "blowfish")) }}
+  {{ if not $cssScheme }}
+  {{ $cssScheme = resources.Get "css/schemes/blowfish.css" }}
+  {{ end }}  */}}
+
+  
   {{ $assets.Add "css" (slice $cssScheme) }}
   {{ $cssMain := resources.Get "css/compiled/main.css" }}
   {{ $assets.Add "css" (slice $cssMain) }}
