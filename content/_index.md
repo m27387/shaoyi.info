@@ -106,7 +106,7 @@ Beyond his previous roles, Shaoyi is currently serving as a military counselor. 
 ## Experiences
 {{< timelinecustom >}}
 <!-- 司令部營輔導長 -->
-{{< timelinecustomItem icon="shield-heart" header="Battalion Counselor" badge="Aug 2023 - Present" subheader="Army Command Headquaters" >}}
+{{< timelinecustomItem icon="shield-heart" header="Battalion Counselor" badge="Aug 2023 - Present" subheader="Army Command Headquarters" >}}
 <p class="font-bold mb-0">Responsibilities</p>
 <div class="customhome">
 <ul>
@@ -134,11 +134,11 @@ Beyond his previous roles, Shaoyi is currently serving as a military counselor. 
 <div class="customhome">
 <ul>
  <li>Maintain information advantage and superiority</li>
- <li>Engage and coordinate with civilian news outlets</li>
- <li>Plan administrative affairs and comptroller’s budgets of the institute</li>
+ <li>Engage with and coordinate civilian news outlets</li>
+ <li>Plan administrative affairs and comptroller budgets of the institute</li>
  <li>Integrate Information and digital systems</li>
  <li>Assist manager and campaigns developer with social media platforms</li>
- <li>Aide-de-camp to the Ministry of National Defense’s Spokesperson</li>
+ <li>Aide-de-camp to the spokesperson for the Ministry of National Defense</li>
  </ul>
  </div>
 {{< /timelinecustomItem >}}
@@ -233,9 +233,9 @@ With other shortcodes
   
 ## Volunteer Activities
 - Volunteer at [Yunshui Community Development Association](https://g.co/kgs/2tpvQwh), Chiayi, Taiwan from Aug 2018 to Present
-- Music performancer at Da-Wo Veterans Home in Jan 2012
-- Music performancer at Banqiao Veterans Home in Jan 2011
-- Music performancer at Taoyuan Veterans Home in Sep 2010
+- Music performer at Da-Wo Veterans Home in Jan 2012
+- Music performer at Banqiao Veterans Home in Jan 2011
+- Music performer at Taoyuan Veterans Home in Sep 2010
 - Documentary producer and community service at Da-Ai Indigenous Tribe in Aug 2009
 
 <!-- loop=true -->
