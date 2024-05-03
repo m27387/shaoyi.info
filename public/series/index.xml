@@ -1,1 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Series on shaoyi.info</title><link>http://localhost:1313/series/</link><description>Recent content in Series on shaoyi.info</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2024 Shaoyi Lai</copyright><lastBuildDate>Tue, 11 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml"/><item><title>Documentation</title><link>http://localhost:1313/series/documentation/</link><pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate><guid>http://localhost:1313/series/documentation/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on shaoyi.info</title>
+    <link>http://localhost:1313/series/</link>
+    <description>Recent content in Series on shaoyi.info</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Shaoyi Lai</copyright>
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TOEFL Preparation</title>
+      <link>http://localhost:1313/series/toefl-preparation/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/series/toefl-preparation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Why and How I Jumped on the Hugo Bandwagon</title>
+      <link>http://localhost:1313/series/why-and-how-i-jumped-on-the-hugo-bandwagon/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/series/why-and-how-i-jumped-on-the-hugo-bandwagon/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Documentation</title>
+      <link>http://localhost:1313/series/documentation/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/series/documentation/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

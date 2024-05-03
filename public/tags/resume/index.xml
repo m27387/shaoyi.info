@@ -1,64 +1,93 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Resume on shaoyi.info</title><link>http://localhost:1313/tags/resume/</link><description>Recent content in Resume on shaoyi.info</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2024 Shaoyi Lai</copyright><lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/resume/index.xml" rel="self" type="application/rss+xml"/><item><title>Curriculum Vitae</title><link>http://localhost:1313/</link><pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><guid>http://localhost:1313/</guid><description>&lt;h2 class="relative group">Introduction
-&lt;div id="introduction" class="anchor">&lt;/div>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#introduction" aria-label="Anchor">#&lt;/a>
-&lt;/span>
-&lt;/h2>
-&lt;p>Shaoyi Lai was a dedicated Public Affairs Officer adept at enhancing the military&amp;rsquo;s public image through innovative communications, including press releases, print materials, and digital resources. He excels in building strong relationships with media professionals and social influencers to effectively relay defense-related policies.&lt;/p>
-&lt;p>Beyond his previous roles, Shaoyi is currently serving as a military counselor. He also enjoys exploring his less-talented creative side as an amateur website and graphic designer, and his less-than-stellar musical talents.&lt;/p>
-&lt;p>&lt;a href="https://voca.ro/12SteQV3fTDZ" target="_blank">
-📢 Pronounced Shàoyì in Mandarin&lt;/a>&lt;/p>
-&lt;div class="w-full mt-10">
-&lt;p class="mb-0">
-&lt;span class="relative inline-block align-text-bottom icon">
-&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32C93.5 32 46.3 45.3 18.1 56.1C6.8 60.5 0 71.7 0 83.8V454.1c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6c11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6c-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/>&lt;/svg>
-&lt;/span>
-&amp;nbsp;Research Interests&lt;/p>
-&lt;div class="customhome">
-&lt;ul class="mt-0">
-&lt;li>Information Advantages and Psychological Operations&lt;/li>
-&lt;li>Public Affairs and Media Relations&lt;/li>
-&lt;li>China Influence Operations&lt;/li>
-&lt;li>Public Opinions on Defense Policies&lt;/li>
-&lt;li>Media Literacy and Public Perception&lt;/li>
-&lt;li>International Relations and Regional Security&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;/div>
-&lt;div class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-2">
-&lt;div class="min-w-full">
-&lt;p class="mb-0">
-&lt;span class="relative inline-block align-text-bottom icon">
-&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-&lt;path fill="currentColor" d="M0 128C0 92.7 28.7 64 64 64H256h48 16H576c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H320 304 256 64c-35.3 0-64-28.7-64-64V128zm320 0V384H576V128H320zM178.3 175.9c-3.2-7.2-10.4-11.9-18.3-11.9s-15.1 4.7-18.3 11.9l-64 144c-4.5 10.1 .1 21.9 10.2 26.4s21.9-.1 26.4-10.2l8.9-20.1h73.6l8.9 20.1c4.5 10.1 16.3 14.6 26.4 10.2s14.6-16.3 10.2-26.4l-64-144zM160 233.2L179 276H141l19-42.8zM448 164c11 0 20 9 20 20v4h44 16c11 0 20 9 20 20s-9 20-20 20h-2l-1.6 4.5c-8.9 24.4-22.4 46.6-39.6 65.4c.9 .6 1.8 1.1 2.7 1.6l18.9 11.3c9.5 5.7 12.5 18 6.9 27.4s-18 12.5-27.4 6.9l-18.9-11.3c-4.5-2.7-8.8-5.5-13.1-8.5c-10.6 7.5-21.9 14-34 19.4l-3.6 1.6c-10.1 4.5-21.9-.1-26.4-10.2s.1-21.9 10.2-26.4l3.6-1.6c6.4-2.9 12.6-6.1 18.5-9.8l-12.2-12.2c-7.8-7.8-7.8-20.5 0-28.3s20.5-7.8 28.3 0l14.6 14.6 .5 .5c12.4-13.1 22.5-28.3 29.8-45H448 376c-11 0-20-9-20-20s9-20 20-20h52v-4c0-11 9-20 20-20z"/>&lt;/svg>
-&lt;/span>
-&amp;nbsp;Languages&lt;/p>
-&lt;div class="customhome">
-&lt;ul class="mt-0">
-&lt;li>Taiwanese Mandarin (Native)&lt;/li>
-&lt;li>Taiwanese (Fluent)&lt;/li>
-&lt;li>English (Advanced to Fluent)&lt;/li>
-&lt;li>Japanese (Rudimentary)&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;/div>
-&lt;div class="min-w-full">
-&lt;p class="mb-0">
-&lt;span class="relative inline-block align-text-bottom icon">
-&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
-&lt;/span>
-&amp;nbsp;Skills&lt;/p>
-&lt;div class="customhome">
-&lt;ul class="mt-0">
-&lt;li>HTML and CSS&lt;/li>
-&lt;li>PHP and MySQL&lt;/li>
-&lt;li>Information Visualization&lt;/li>
-&lt;li>Graphic Design&lt;/li>
-&lt;li>Typesetting&lt;/li>
-&lt;li>Localization&lt;/li>
-&lt;/ul>
-&lt;/div>
-&lt;/div>
-&lt;/div></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resume on shaoyi.info</title>
+    <link>http://localhost:1313/tags/resume/</link>
+    <description>Recent content in Resume on shaoyi.info</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Shaoyi Lai</copyright>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/resume/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>http://localhost:1313/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Introduction 
+    &lt;div id=&#34;introduction&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#introduction&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;Shaoyi Lai was a dedicated Public Affairs Officer adept at enhancing the military&amp;rsquo;s public image through innovative communications, including press releases, print materials, and digital resources. He excels in building strong relationships with media professionals and social influencers to effectively relay defense-related policies.&lt;/p&gt;
+&lt;p&gt;Beyond his previous roles, Shaoyi is currently serving as a military counselor. He also enjoys exploring his less-talented creative side as an amateur website and graphic designer, and his less-than-stellar musical talents.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://voca.ro/12SteQV3fTDZ&#34;   target=&#34;_blank&#34;&gt;
+    📢 Pronounced Shàoyì in Mandarin&lt;/a&gt;&lt;/p&gt;
+  &lt;div class=&#34;w-full mt-10&#34;&gt;
+        &lt;p class=&#34;mb-0&#34;&gt;
+
+  &lt;span class=&#34;relative inline-block align-text-bottom icon&#34;&gt;
+    &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32C93.5 32 46.3 45.3 18.1 56.1C6.8 60.5 0 71.7 0 83.8V454.1c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6c11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6c-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z&#34;/&gt;&lt;/svg&gt;
+  &lt;/span&gt;
+
+ &amp;nbsp;Research Interests&lt;/p&gt;
+        &lt;div class=&#34;customhome&#34;&gt;
+            &lt;ul class=&#34;mt-0&#34;&gt;
+                &lt;li&gt;Information Advantages and Psychological Operations&lt;/li&gt;
+                &lt;li&gt;Public Affairs and Media Relations&lt;/li&gt;
+                &lt;li&gt;China Influence Operations&lt;/li&gt;
+                &lt;li&gt;Public Opinions on Defense Policies&lt;/li&gt;
+                &lt;li&gt;Media Literacy and Public Perception&lt;/li&gt;
+                &lt;li&gt;International Relations and Regional Security&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;div class=&#34;w-full grid gap-4 sm:grid-cols-2 md:grid-cols-2&#34;&gt;
+    &lt;div class=&#34;min-w-full&#34;&gt;
+        &lt;p class=&#34;mb-0&#34;&gt;
+
+  &lt;span class=&#34;relative inline-block align-text-bottom icon&#34;&gt;
+    &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 640 512&#34;&gt;
+    &lt;path fill=&#34;currentColor&#34; d=&#34;M0 128C0 92.7 28.7 64 64 64H256h48 16H576c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H320 304 256 64c-35.3 0-64-28.7-64-64V128zm320 0V384H576V128H320zM178.3 175.9c-3.2-7.2-10.4-11.9-18.3-11.9s-15.1 4.7-18.3 11.9l-64 144c-4.5 10.1 .1 21.9 10.2 26.4s21.9-.1 26.4-10.2l8.9-20.1h73.6l8.9 20.1c4.5 10.1 16.3 14.6 26.4 10.2s14.6-16.3 10.2-26.4l-64-144zM160 233.2L179 276H141l19-42.8zM448 164c11 0 20 9 20 20v4h44 16c11 0 20 9 20 20s-9 20-20 20h-2l-1.6 4.5c-8.9 24.4-22.4 46.6-39.6 65.4c.9 .6 1.8 1.1 2.7 1.6l18.9 11.3c9.5 5.7 12.5 18 6.9 27.4s-18 12.5-27.4 6.9l-18.9-11.3c-4.5-2.7-8.8-5.5-13.1-8.5c-10.6 7.5-21.9 14-34 19.4l-3.6 1.6c-10.1 4.5-21.9-.1-26.4-10.2s.1-21.9 10.2-26.4l3.6-1.6c6.4-2.9 12.6-6.1 18.5-9.8l-12.2-12.2c-7.8-7.8-7.8-20.5 0-28.3s20.5-7.8 28.3 0l14.6 14.6 .5 .5c12.4-13.1 22.5-28.3 29.8-45H448 376c-11 0-20-9-20-20s9-20 20-20h52v-4c0-11 9-20 20-20z&#34;/&gt;&lt;/svg&gt;
+  &lt;/span&gt;
+
+ &amp;nbsp;Languages&lt;/p&gt;
+        &lt;div class=&#34;customhome&#34;&gt;
+            &lt;ul class=&#34;mt-0&#34;&gt;
+                &lt;li&gt;Taiwanese Mandarin (Native)&lt;/li&gt;
+                &lt;li&gt;Taiwanese (Fluent)&lt;/li&gt;
+                &lt;li&gt;English (Advanced to Fluent)&lt;/li&gt;
+                &lt;li&gt;Japanese (Rudimentary)&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;min-w-full&#34;&gt;
+        &lt;p class=&#34;mb-0&#34;&gt;
+
+  &lt;span class=&#34;relative inline-block align-text-bottom icon&#34;&gt;
+    &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 576 512&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z&#34;/&gt;&lt;/svg&gt;
+  &lt;/span&gt;
+
+ &amp;nbsp;Skills&lt;/p&gt;
+        &lt;div class=&#34;customhome&#34;&gt;
+            &lt;ul class=&#34;mt-0&#34;&gt;
+                &lt;li&gt;HTML and CSS&lt;/li&gt;
+                &lt;li&gt;PHP and MySQL&lt;/li&gt;
+                &lt;li&gt;Information Visualization&lt;/li&gt;
+                &lt;li&gt;Graphic Design&lt;/li&gt;
+                &lt;li&gt;Typesetting&lt;/li&gt;
+                &lt;li&gt;Localization&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
