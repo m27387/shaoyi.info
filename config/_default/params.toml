@@ -48,8 +48,8 @@ smartTOC = true
 
 [article]
   showDate = true
-  showViews = false
-  showLikes = false
+  showViews = true
+  showLikes = true
   showDateOnlyInArticle = false
   showDateUpdated = false
   showAuthor = false
@@ -118,13 +118,13 @@ smartTOC = true
   cardViewScreenWidth = false
 
 [firebase]
-  # apiKey = "XXXXXX"
-  # authDomain = "XXXXXX"
-  # projectId = "XXXXXX"
-  # storageBucket = "XXXXXX"
-  # messagingSenderId = "XXXXXX"
-  # appId = "XXXXXX"
-  # measurementId = "XXXXXX"
+  apiKey = "AIzaSyCly9Fw3CsCxoaceqccITDTMMD2tVujkmU"
+  authDomain = "shaoyiinfo.firebaseapp.com"
+  projectId = "shaoyiinfo"
+  storageBucket = "shaoyiinfo.appspot.com"
+  messagingSenderId = "544274154335"
+  appId = "1:544274154335:web:180259f96df1a888b42cea"
+  measurementId = "G-YV0BDBQQBW"
 
 [fathomAnalytics]
   # site = "ABC12345"

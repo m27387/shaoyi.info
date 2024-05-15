@@ -3,7 +3,7 @@ title: "Note-taking Skills"
 date: 2024-05-01
 description: "Note-taking skills and abbreviations for listening and speaking sections."
 # slug: "cheatsheet"
-tags: ["TOEFL", "ESL", "note-taking", "listening", "speaking"]
+tags: ["TOEFL", "ESL", "note-taking"]
 series: ["TOEFL Preparation"]
 series_order: 8
 ---
@@ -12,16 +12,25 @@ Since TOEFL is a standardized test, the time limitation is one of its critical c
 ## Basic principles
 This is a memo I summarized from a [youtube video]((https://www.youtube.com/watch?v=EXAbraAOdBQ)): 
 1. Do not jot down every details
+   - Do not focus on **mpt** things -> lose points
    - It is not neccessary
-   - lose points
-   - ``(?)`` then, what are important must-haves?
+   - ``(?)`` then, what are important must-haves? **check the Tip #2**
 2. Guess (anticipate) the questions
    - What is the [question type](https://www.youtube.com/watch?v=qI0YOyvLk50)? (Prevent from taking UNNECESSARY notes)
 {{< mermaid >}}
 graph LR;
-A[types]-->B[what to listen for];
-B-->C[what to write down]
+A[? types]-->B[? to 👂 for];
+B-->C[? to ✍️ down]
 {{< /mermaid >}}
+3. Do not copy the speakers (**paraphrases**) \
+   This is tricky because we all want to copy the original words (terms) used in the questions. However, the terminologies should be adopted into the speakers' own words.
+4. Be aware of questions' self-corrections \
+    {{< mermaid >}}
+graph LR;
+A[✖️s in Qs]-->B[corrections];
+B-->C[? what are the corrections]
+{{< /mermaid >}}
+5. ⬇️ abbreviations n' symbols. **CHECK THE NEXT SECTION!!!**
 ## Abbreviations and Symbols
 Here are some abbreviations and symbols for taking notes quickly and improving productivity.
 ### Logic
