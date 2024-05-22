@@ -20,10 +20,6 @@
   
   
   
-
-  
-
-  
   
   
   
@@ -753,7 +749,7 @@
         h.each(function (i, e) {
           e = $(e);
           if (e.offset().top - $(window).height()/3 <= currentScroll) {
-            id = e.attr('id');
+            id = decodeURIComponent(e.attr('id'));
           }
         });
         var active = $toc.find('a.active');      
@@ -778,6 +774,7 @@
     }
   })();
 </script>
+
    </div>
       </div>
       
@@ -2730,14 +2727,14 @@ B-->C[Profit]
 </span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">timelineItem</span> <span class="p">&gt;</span>}}
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">timeline</span> <span class="p">&gt;</span>}}
-</span></span></code></pre></div><ol class="border-l-2 list-none border-primary-500 dark:border-primary-300">
+</span></span></code></pre></div><ol class="border-l-2 border-primary-500 dark:border-primary-300">
 
 
 
 
 
 
-<li class="list-none">
+<li>
   <div class="flex flex-start">
     <div class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full -ml-12 mt-5">
       
@@ -2771,9 +2768,9 @@ B-->C[Profit]
         subheader
       </h4>
       
-      <p class="text-gray-700 mb-6">
+      <div class="mb-6">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non magna ex. Donec sollicitudin ut lorem quis lobortis. Nam ac ipsum libero. Sed a ex eget ipsum tincidunt venenatis quis sed nisl. Pellentesque sed urna vel odio consequat tincidunt id ut purus. Nam sollicitudin est sed dui interdum rhoncus. 
-</p>
+</div>
     </div>
   </div>
 </li>
@@ -2785,7 +2782,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non magna ex. D
 
 
 
-<li class="list-none">
+<li>
   <div class="flex flex-start">
     <div class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full -ml-12 mt-5">
       
@@ -2819,14 +2816,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non magna ex. D
         Awesome Subheader
       </h4>
       
-      <p class="text-gray-700 mb-6">
+      <div class="mb-6">
 With html code
 <ul>
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ul>
-</p>
+</div>
     </div>
   </div>
 </li>
@@ -2837,7 +2834,7 @@ With html code
 
 
 
-<li class="list-none">
+<li>
   <div class="flex flex-start">
     <div class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full -ml-12 mt-5">
       
@@ -2866,7 +2863,7 @@ With html code
         
       </div>
       
-      <p class="text-gray-700 mb-6">
+      <div class="mb-6">
 With other shortcodes
 
 
@@ -2881,7 +2878,7 @@ With other shortcodes
   <img src="gallery/07.jpg" class="grid-w33" />
 
 </div>
-</p>
+</div>
     </div>
   </div>
 </li>
@@ -3141,7 +3138,7 @@ With other shortcodes
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/notes/notes/">
+            <a class="flex group mr-3" href="/notes/git-cheatsheet/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span

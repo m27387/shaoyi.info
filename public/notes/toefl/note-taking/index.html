@@ -20,10 +20,6 @@
   
   
   
-
-  
-
-  
   
   
   
@@ -567,7 +563,7 @@
         h.each(function (i, e) {
           e = $(e);
           if (e.offset().top - $(window).height()/3 <= currentScroll) {
-            id = e.attr('id');
+            id = decodeURIComponent(e.attr('id'));
           }
         });
         var active = $toc.find('a.active');      
@@ -592,6 +588,7 @@
     }
   })();
 </script>
+
    </div>
       </div>
       
@@ -920,7 +917,7 @@ B-->C[? what are the corrections]
         </span>
         <span>
           
-            <a class="flex text-right group ml-3" href="/notes/notes/">
+            <a class="flex text-right group ml-3" href="/notes/git-cheatsheet/">
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
