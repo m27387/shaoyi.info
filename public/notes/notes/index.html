@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>The Git Cheatsheet &middot; shaoyi.info</title>
-  <meta name="title" content="The Git Cheatsheet &middot; shaoyi.info" />
+  <title>The Git Cheatsheet &middot; Shaoyi&#39;s Information</title>
+  <meta name="title" content="The Git Cheatsheet &middot; Shaoyi&#39;s Information" />
   
   <meta name="description" content="Git cheatsheets I found on the Internet." />
   <meta name="keywords" content="hugo, git, github, cheatsheet, " />
@@ -19,10 +19,6 @@
   
   
   
-  
-
-  
-
   
   
   
@@ -68,7 +64,7 @@
   
   
   <meta property="og:url" content="http://localhost:1313/notes/notes/">
-  <meta property="og:site_name" content="shaoyi.info">
+  <meta property="og:site_name" content="Shaoyi&#39;s Information">
   <meta property="og:title" content="The Git Cheatsheet">
   <meta property="og:description" content="Git cheatsheets I found on the Internet.">
   <meta property="og:locale" content="en">
@@ -206,7 +202,7 @@
         <nav class="flex space-x-3">
 
             
-            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">shaoyi.info</a>
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">Shaoyi&rsquo;s Information</a>
             
 
         </nav>
@@ -539,7 +535,7 @@
         h.each(function (i, e) {
           e = $(e);
           if (e.offset().top - $(window).height()/3 <= currentScroll) {
-            id = e.attr('id');
+            id = decodeURIComponent(e.attr('id'));
           }
         });
         var active = $toc.find('a.active');      
@@ -564,6 +560,7 @@
     }
   })();
 </script>
+
    </div>
       </div>
       
