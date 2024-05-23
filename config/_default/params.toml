@@ -135,11 +135,11 @@ smartTOC = true
   # domain = "llama.yoursite.com"
 
 [buymeacoffee]
-  # identifier = ""
-  # globalWidget = true
-  # globalWidgetMessage = "Hello"
-  # globalWidgetColor = "#FFDD00"
-  # globalWidgetPosition = "Right"
+  identifier = "laishaoyi"
+  globalWidget = true
+  globalWidgetMessage = "💵🍺🥳"
+  globalWidgetColor = "#84cc16"
+  globalWidgetPosition = "Right"
 
 [verification]
   # google = ""
