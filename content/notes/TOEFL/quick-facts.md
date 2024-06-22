@@ -33,5 +33,5 @@ series_order: 1
 ## Writing ✍️
 | Task Type | Task Description |
 | - | - |
-| 1: Integrated Writing (👂🏼+📖+✍️) | <ul><li>read a short text of abot 250-300 words</li><li>listen to a passage abot 250-320 words</li><li>express information in an organized, logical, and coherent manner</li><li>response time: 20 mins</li></ul>|
+| 1: Integrated Writing (👂🏼+📖+✍️) | <ul><li>read a short text of about 250-300 words</li><li>listen to a passage abouft 250-320 words</li><li>express information in an organized, logical, and coherent manner</li><li>response time: 20 mins</li></ul>|
 | 2: Writing for an Academic Discussion | |
