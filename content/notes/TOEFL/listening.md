@@ -5,7 +5,7 @@ description: "A basic framework for memorizing trigger words."
 # slug: "cheatsheet"
 tags: ["TOEFL", "ESL", "note-taking"]
 series: ["TOEFL Preparation"]
-series_order: 2
+series_order: 3
 ---
 
 ## 8 Main Points

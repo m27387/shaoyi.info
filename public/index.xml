@@ -10,10 +10,10 @@
     <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Listening</title>
-      <link>http://localhost:1313/notes/toefl/8-main-points/</link>
+      <link>http://localhost:1313/notes/toefl/listening/</link>
       <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/notes/toefl/8-main-points/</guid>
+      <guid>http://localhost:1313/notes/toefl/listening/</guid>
       <description>8 Main Points # Predict (feel) the qeustion before seeing them</description>
       
     </item>
@@ -24,7 +24,17 @@
       <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/notes/toefl/quick-facts/</guid>
-      <description> Test Format # Section Number of Questions Estimated Timing R📖 2 passages, 10 q per p 35 mins L👂🏼 3 lectures, 6 q ea: 2 conversations, 5 q ea 36 mins S🗣️ 1 independent, 3 integrated 16 mins W✍️ 1 integrated 20 mins 1 academic discussion task 10 mins Prologue # Begin: today / i will begin with / Past: Order: Question: Follow-up: Meanwhile: 1️⃣ Main idea # 2️⃣ Purpose # 3️⃣ Definition # 4️⃣ Comparison-and-Contrast # 5️⃣ Casue-and-effect # 6️⃣ Emphasis # 7️⃣ Inference # 8️⃣ Conclusion # Category trigger words 1️⃣ Main idea 27 dd dd dd 2️⃣ Purpose 3 3️⃣ Definition 23 4️⃣ Comparison-and-Contrast 5️⃣ Casue-and-effect 6️⃣ Emphasis 7️⃣ Inference 8️⃣ Conclusion </description>
+      <description>Test Format # Section Number of Questions Estimated Timing R📖 2 passages, 10 q per p 35 mins L👂🏼 3 lectures, 6 q ea: 2 conversations, 5 q ea 36 mins S🗣️ 1 independent, 3 integrated 16 mins W✍️ 1 integrated 1 academic discussion task 20 mins 10 mins Speaking 🗣️ # Task Type Task Description Timing Independent 1: Paired Choice make and defend a personal choice between two contrasting behaviors, ideas, or courses of action p: 15 sec;</description>
+      
+    </item>
+    
+    <item>
+      <title>Speaking</title>
+      <link>http://localhost:1313/notes/toefl/speaking/</link>
+      <pubDate>Tue, 14 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/toefl/speaking/</guid>
+      <description>Templates # Predict (feel) the qeustion before seeing them</description>
       
     </item>
     
@@ -40,10 +50,10 @@
     
     <item>
       <title>The Git Cheatsheet</title>
-      <link>http://localhost:1313/notes/notes/</link>
+      <link>http://localhost:1313/notes/git-cheatsheet/</link>
       <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/notes/notes/</guid>
+      <guid>http://localhost:1313/notes/git-cheatsheet/</guid>
       <description>This is an intergration for the Git cheatsheets I found on the Internet.</description>
       
     </item>
