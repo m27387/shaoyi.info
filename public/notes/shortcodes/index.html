@@ -108,7 +108,7 @@
     "keywords": ["shortcodes","mermaid","icon","lead","docs"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "2859"
+    "wordCount": "2856"
   }]
   </script>
 
@@ -145,8 +145,8 @@
   <script
     defer
     type="text/javascript"
-    src="/js/mermaid.bundle.79fb2b63195059fdbfc56baebc147a42a4f1a8742d85e355e37f284c17866228b178f4bfc234a5ff7b807cca0907a189a1d6309159e50c112a9e82cabfc4c1f8.js"
-    integrity="sha512-efsrYxlQWf2/xWuuvBR6QqTxqHQtheNV438oTBeGYiixePS/wjSl/3uAfMoJB6GJodYwkVnlDBEqnoLKv8TB&#43;A=="
+    src="/js/mermaid.bundle.9aab96d44f6ac9568364d8bc6faeb1120a4f4f78a1742ecd23e9401160647174f0551e09453104173597409a0f0c89370fa03e70a58d337298934f9267a77c7c.js"
+    integrity="sha512-mquW1E9qyVaDZNi8b66xEgpPT3ihdC7NI&#43;lAEWBkcXTwVR4JRTEEFzWXQJoPDIk3D6A&#43;cKWNM3KYk0&#43;SZ6d8fA=="
   ></script>
 
 
@@ -156,8 +156,8 @@
 
 
 
-<script defer type="text/javascript" src="/js/chart.bundle.e504214c2b765ea06f4ed1728fbfaff95c45efb974d2a21b6977ad719ce3f6e6eef7315dedbeb7412b3c270d253524ea1861c80eb8f59c0196613569d107b9d9.js"
-  integrity="sha512-5QQhTCt2XqBvTtFyj7&#43;v&#43;VxF77l00qIbaXetcZzj9ubu9zFd7b63QSs8Jw0lNSTqGGHIDrj1nAGWYTVp0Qe52Q=="></script>
+<script defer type="text/javascript" src="/js/chart.bundle.bcaee17da5afec84839b18444dcf6ba80a0416f00d68f77efd9bdaae5b29a34c6a1b73da509e3ad77a7b22dcb79f0f74cc8759e2cc97fa478bf5204e7abd91d2.js"
+  integrity="sha512-vK7hfaWv7ISDmxhETc9rqAoEFvANaPd&#43;/Zvarlspo0xqG3PaUJ4613p7Ity3nw90zIdZ4syX&#43;keL9SBOer2R0g=="></script>
 
 
 
@@ -359,7 +359,7 @@
   
 </head>
 <body
-  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32">
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
   <div id="the-top" class="absolute flex self-center">
     <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
       href="#main-content"><span
@@ -555,7 +555,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span>2859 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">14 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <span>2856 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">14 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -664,13 +664,14 @@
       class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
       <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-10">
 
-         <details open class="toc-right mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+         <details open id="TOCView"
+  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
   <summary
     class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
     Table of Contents
   </summary>
   <div
-    class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
     <li><a href="#alert">Alert</a></li>
@@ -735,8 +736,33 @@
   </div>
 </details>
 
- 
 <script>
+
+  var margin = 200;
+  var marginError = 50;
+
+  (function () {
+    var $window = $(window);
+    var $toc = $('#TOCView');
+    var tocHeight = $toc.height();
+
+    function onResize() {
+      var windowAndMarginHeight = $window.height() - margin;
+      if(tocHeight >= windowAndMarginHeight) {
+        $toc.css("overflow-y", "scroll")
+        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
+      } else {
+        $toc.css("overflow-y", "hidden")
+        $toc.css("max-height", "9999999px")
+      }
+    }
+
+    $window.on('resize', onResize);
+    $(document).ready(onResize);
+  })();
+
+
+
   (function () {
     var $toc = $('#TableOfContents');
     if ($toc.length > 0) {
@@ -773,8 +799,9 @@
       });
     }
   })();
-</script>
 
+
+</script>
    </div>
       </div>
       
@@ -804,8 +831,7 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          <p>In addition to all the <a href="https://gohugo.io/content-management/shortcodes/"   target="_blank">
-    default Hugo shortcodes</a>, Blowfish adds a few extras for additional functionality.</p>
+          <p>In addition to all the <a href="https://gohugo.io/content-management/shortcodes/" target="_blank">default Hugo shortcodes</a>, Blowfish adds a few extras for additional functionality.</p>
 
 
 <h2 class="relative group">Alert 
@@ -830,8 +856,7 @@
 <tbody>
 <tr>
 <td><code>icon</code></td>
-<td><strong>Optional.</strong> the icon to display on the left side.<br><strong>Default:</strong> <code>exclaimation triangle icon</code> (Check out the <a href="#icon"  >
-    icon shortcode</a> for more details on using icons.)</td>
+<td><strong>Optional.</strong> the icon to display on the left side.<br><strong>Default:</strong> <code>exclaimation triangle icon</code> (Check out the <a href="#icon">icon shortcode</a> for more details on using icons.)</td>
 </tr>
 <tr>
 <td><code>iconColor</code></td>
@@ -916,8 +941,7 @@
   <span
     
       class="dark:text-neutral-300"
-    >Don&rsquo;t forget to <a href="https://twitter.com/nunocoracao"   target="_blank">
-    follow me</a> on Twitter.</span>
+    >Don&rsquo;t forget to <a href="https://twitter.com/nunocoracao" target="_blank">follow me</a> on Twitter.</span>
 </div>
 
 <p><strong>Example 3:</strong> Named params</p>
@@ -1439,10 +1463,8 @@ Call to action
     </span>        
     
 </h2>
-<p><code>chart</code> uses the Chart.js library to embed charts into articles using simple structured data. It supports a number of <a href="https://www.chartjs.org/docs/latest/samples/"   target="_blank">
-    different chart styles</a> and everything can be configured from within the shortcode. Simply provide the chart parameters between the shortcode tags and Chart.js will do the rest.</p>
-<p>Refer to the <a href="https://www.chartjs.org/docs/latest/general/"   target="_blank">
-    official Chart.js docs</a> for details on syntax and supported chart types.</p>
+<p><code>chart</code> uses the Chart.js library to embed charts into articles using simple structured data. It supports a number of <a href="https://www.chartjs.org/docs/latest/samples/" target="_blank">different chart styles</a> and everything can be configured from within the shortcode. Simply provide the chart parameters between the shortcode tags and Chart.js will do the rest.</p>
+<p>Refer to the <a href="https://www.chartjs.org/docs/latest/general/" target="_blank">official Chart.js docs</a> for details on syntax and supported chart types.</p>
 <p><strong>Example:</strong></p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="p">{{</span><span class="o">&lt;</span> <span class="nx">chart</span> <span class="o">&gt;</span><span class="p">}}</span>
 </span></span><span class="line"><span class="cl"><span class="nx">type</span><span class="o">:</span> <span class="s1">&#39;bar&#39;</span><span class="p">,</span>
@@ -1505,13 +1527,11 @@ data: {
 <tbody>
 <tr>
 <td><code>src</code></td>
-<td><strong>Required.</strong> The local path/filename or URL of the image. When providing a path and filename, the theme will attempt to locate the image using the following lookup order: Firstly, as a <a href="https://gohugo.io/content-management/page-resources/"   target="_blank">
-    page resource</a> bundled with the page; then an asset in the <code>assets/</code> directory; then finally, a static image in the <code>static/</code> directory.</td>
+<td><strong>Required.</strong> The local path/filename or URL of the image. When providing a path and filename, the theme will attempt to locate the image using the following lookup order: Firstly, as a <a href="https://gohugo.io/content-management/page-resources/" target="_blank">page resource</a> bundled with the page; then an asset in the <code>assets/</code> directory; then finally, a static image in the <code>static/</code> directory.</td>
 </tr>
 <tr>
 <td><code>alt</code></td>
-<td><a href="https://moz.com/learn/seo/alt-text"   target="_blank">
-    Alternative text description</a> for the image.</td>
+<td><a href="https://moz.com/learn/seo/alt-text" target="_blank">Alternative text description</a> for the image.</td>
 </tr>
 <tr>
 <td><code>caption</code></td>
@@ -1535,8 +1555,7 @@ data: {
 </tr>
 <tr>
 <td><code>default</code></td>
-<td>Special parameter to revert to default Hugo <code>figure</code> behaviour. Simply provide <code>default=true</code> and then use normal <a href="https://gohugo.io/content-management/shortcodes/#figure"   target="_blank">
-    Hugo shortcode syntax</a>.</td>
+<td>Special parameter to revert to default Hugo <code>figure</code> behaviour. Simply provide <code>default=true</code> and then use normal <a href="https://gohugo.io/content-management/shortcodes/#figure" target="_blank">Hugo shortcode syntax</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -1554,43 +1573,20 @@ data: {
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">![<span class="nt">Abstract purple artwork</span>](<span class="na">abstract.jpg &#34;Photo by [Jr Korpa](https://unsplash.com/@jrkorpa</span>) on [<span class="nt">Unsplash</span>](<span class="na">https://unsplash.com/</span>)&#34;)
 </span></span></code></pre></div>
-
+<figure>
+        <img
+          class="my-0 rounded-md"
+          srcset="
+          /notes/shortcodes/abstract_hu2a5bcf9093553c3c0b2ba5b36cd60512_17714_330x0_resize_q75_box.jpg 330w,
+          /notes/shortcodes/abstract_hu2a5bcf9093553c3c0b2ba5b36cd60512_17714_660x0_resize_q75_box.jpg 660w,
+          /notes/shortcodes/abstract_hu2a5bcf9093553c3c0b2ba5b36cd60512_17714_1024x0_resize_q75_box.jpg 1024w,
+          /notes/shortcodes/abstract_hu2a5bcf9093553c3c0b2ba5b36cd60512_17714_1320x0_resize_q75_box.jpg 2x"
+          src="/notes/shortcodes/abstract_hu2a5bcf9093553c3c0b2ba5b36cd60512_17714_660x0_resize_q75_box.jpg"
+          alt="Abstract purple artwork"
+        />
+  <figcaption>Photo by <a href="https://unsplash.com/@jrkorpa" target="_blank">Jr Korpa</a> on <a href="https://unsplash.com/" target="_blank">Unsplash</a></figcaption>
   
-  
-  
-  
-  
-  
-  
-  
-    
-    
-      
-    
-    
-      <figure >
-        
-          
-          <img
-            class="my-0 rounded-md"
-            srcset="
-            /notes/shortcodes/abstract_hu2a5bcf9093553c3c0b2ba5b36cd60512_17714_330x0_resize_q75_box.jpg 330w,
-            /notes/shortcodes/abstract_hu2a5bcf9093553c3c0b2ba5b36cd60512_17714_660x0_resize_q75_box.jpg 660w,
-            /notes/shortcodes/abstract_hu2a5bcf9093553c3c0b2ba5b36cd60512_17714_1024x0_resize_q75_box.jpg 1024w,
-            /notes/shortcodes/abstract_hu2a5bcf9093553c3c0b2ba5b36cd60512_17714_1320x0_resize_q75_box.jpg 2x"
-            src="/notes/shortcodes/abstract_hu2a5bcf9093553c3c0b2ba5b36cd60512_17714_660x0_resize_q75_box.jpg"
-            alt="Abstract purple artwork"
-          />
-          
-        
-        <figcaption>Photo by <a href="https://unsplash.com/@jrkorpa"   target="_blank">
-    Jr Korpa</a> on <a href="https://unsplash.com/"   target="_blank">
-    Unsplash</a></figcaption>
-      </figure>
-    
-  
-
-
+  </figure>
 <p><br/><br/><br/></p>
 
 
@@ -1714,9 +1710,9 @@ data: {
     <div class="m-0 mt-2 flex items-center">
 
       <span class="mr-1 inline-block h-3 w-3 rounded-full"
-        style="background-color: #f1e05a"></span>
+        style="background-color: #e34c26"></span>
       <div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
-         JavaScript 
+         HTML 
       </div>
 
       <span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -1729,7 +1725,7 @@ data: {
 
       </span>
       <div id="github-e33f65bbbe2a1b4b0adc04437669b2bb-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
-        1024
+        1420
       </div>
 
       <span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -1742,7 +1738,7 @@ data: {
 
       </span>
       <div id="github-e33f65bbbe2a1b4b0adc04437669b2bb-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
-        307
+        398
       </div>
 
     </div>
@@ -1837,7 +1833,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 
       </span>
       <div id="gitlab-bc27a43f35720f39d283d42077d52f36-star_count" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
-        5005
+        5234
       </div>
 
       <span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -1850,7 +1846,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
 
       </span>
       <div id="gitlab-bc27a43f35720f39d283d42077d52f36-forks_count" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
-        9626
+        10212
       </div>
 
     </div>
@@ -1910,8 +1906,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
     </span>        
     
 </h2>
-<p>The <code>katex</code> shortcode can be used to add mathematical expressions to article content using the KaTeX package. Refer to the online reference of <a href="https://katex.org/docs/supported.html"   target="_blank">
-    supported TeX functions</a> for the available syntax.</p>
+<p>The <code>katex</code> shortcode can be used to add mathematical expressions to article content using the KaTeX package. Refer to the online reference of <a href="https://katex.org/docs/supported.html" target="_blank">supported TeX functions</a> for the available syntax.</p>
 <p>To include mathematical expressions in an article, simply place the shortcode anywhere with the content. It only needs to be included once per article and KaTeX will automatically render any markup on that page. Both inline and block notation are supported.</p>
 <p>Inline notation can be generated by wrapping the expression in <code>\\(</code> and <code>\\)</code> delimiters. Alternatively, block notation can be generated using <code>$$</code> delimiters.</p>
 <p><strong>Example:</strong></p>
@@ -2120,8 +2115,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
   <span
     
       class="dark:text-neutral-300"
-    >The <code>where</code> and <code>value</code> values are used in the following query <code>where .Site.RegularPages $where $value</code> in the code of the shortcode. Check <a href="https://gohugo.io/variables/page/"   target="_blank">
-    Hugo docs</a> to learn more about which parameters are available to use.</span>
+    >The <code>where</code> and <code>value</code> values are used in the following query <code>where .Site.RegularPages $where $value</code> in the code of the shortcode. Check <a href="https://gohugo.io/variables/page/" target="_blank">Hugo docs</a> to learn more about which parameters are available to use.</span>
 </div>
 
 <!-- prettier-ignore-end -->
@@ -2281,6 +2275,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
       
     </div>
   </a>
+
             
         
             
@@ -2422,6 +2417,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
       
     </div>
   </a>
+
             
         
     
@@ -2464,8 +2460,7 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
     </span>        
     
 </h2>
-<p><code>ltr</code> and <code>rtl</code> allows you to mix your contents. Many RTL language users want to include parts of the content in LTR. Using this shortcode will let you do so, and by leveraging <code>%</code> as the outer-most dilemeter in the shortcode <a href="https://gohugo.io/content-management/shortcodes/#shortcodes-with-markdown"   target="_blank">
-    Hugo shortcodes</a>, any markdown inside will be rendered normally.</p>
+<p><code>ltr</code> and <code>rtl</code> allows you to mix your contents. Many RTL language users want to include parts of the content in LTR. Using this shortcode will let you do so, and by leveraging <code>%</code> as the outer-most dilemeter in the shortcode <a href="https://gohugo.io/content-management/shortcodes/#shortcodes-with-markdown" target="_blank">Hugo shortcodes</a>, any markdown inside will be rendered normally.</p>
 <p><strong>Example:</strong></p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl"><span class="k">-</span> This is an markdown list.
 </span></span><span class="line"><span class="cl"><span class="k">-</span> Its per default a LTR direction
@@ -2529,50 +2524,29 @@ Finally, custom GitLab instance URL can be provided, as long as the <code>api/v4
     </span>        
     
 </h3>
-<p><a href="https://twitter.com/nunocoracao"   target="_blank">
-    
-
-
-
-
+<p><a href="https://twitter.com/nunocoracao" target="_blank">
   <figure>
     <img class="my-0 rounded-md" loading="lazy" src="https://img.shields.io/twitter/follow/nunocoracao?style=social" alt="Twitter badge" />
     
   </figure>
-
 </a>
-<a href="https://www.linkedin.com/in/nunocoracao"   target="_blank">
-    
-
-
-
-
+<a href="https://www.linkedin.com/in/nunocoracao" target="_blank">
   <figure>
     <img class="my-0 rounded-md" loading="lazy" src="https://img.shields.io/badge/LinkedIn-0077B5?style=social&amp;logo=linkedin" alt="Twitter badge" />
     
   </figure>
-
 </a></p>
 <ul>
-<li>🐳 working as a Staff Product Manager @ Docker</li>
-<li>🐡 Creator and maintainer of Blowfish @ <a href="https://blowfish.page"   target="_blank">
-    Blowfish page</a></li>
-<li>🚀 Personal blog - <a href="https://n9o.xyz"   target="_blank">
-    n9o.xyz</a></li>
-<li>📚 mentoring @ <a href="https://mentorcruise.com/mentor/nunocorao/"   target="_blank">
-    mentorcruise</a></li>
+<li>🐳 Principal Product Manager @ Docker</li>
+<li>🐡 Creator and maintainer of Blowfish @ <a href="https://blowfish.page" target="_blank">Blowfish page</a></li>
+<li>🚀 Personal blog - <a href="https://n9o.xyz" target="_blank">n9o.xyz</a></li>
+<li>📚 mentoring @ <a href="https://mentorcruise.com/mentor/nunocorao/" target="_blank">mentorcruise</a></li>
 </ul>
-<p><a href="https://www.buymeacoffee.com/nunocoracao" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a></p>
 <p>
-
-
-
-
   <figure>
     <img class="my-0 rounded-md" loading="lazy" src="https://github-readme-stats.vercel.app/api?username=nunocoracao&amp;show_icons=true&amp;count_private=true&amp;theme=dark" alt="Nuno&amp;rsquo;s GitHub stats" />
     
   </figure>
-
 </p>
 <!--
 **nunocoracao/nunocoracao** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -2591,6 +2565,7 @@ Here are some ideas to get you started:
 <p><a rel="me" href="https://masto.ai/@nunocoracao"></a></p>
 
 
+
 <p><br/><br/></p>
 
 
@@ -2606,8 +2581,7 @@ Here are some ideas to get you started:
 </h2>
 <p><code>mermaid</code> allows you to draw detailed diagrams and visualisations using text. It uses Mermaid under the hood and supports a wide variety of diagrams, charts and other output formats.</p>
 <p>Simply write your Mermaid syntax within the <code>mermaid</code> shortcode and let the plugin do the rest.</p>
-<p>Refer to the <a href="https://mermaid-js.github.io/"   target="_blank">
-    official Mermaid docs</a> for details on syntax and supported diagram types.</p>
+<p>Refer to the <a href="https://mermaid-js.github.io/" target="_blank">official Mermaid docs</a> for details on syntax and supported diagram types.</p>
 <p><strong>Example:</strong></p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">mermaid</span> <span class="p">&gt;</span>}}
 </span></span><span class="line"><span class="cl">graph LR;
@@ -2727,7 +2701,7 @@ B-->C[Profit]
 </span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">timelineItem</span> <span class="p">&gt;</span>}}
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="p">/</span><span class="nt">timeline</span> <span class="p">&gt;</span>}}
-</span></span></code></pre></div><ol class="border-l-2 border-primary-500 dark:border-primary-300">
+</span></span></code></pre></div><ol class="border-l-2 border-primary-500 dark:border-primary-300 list-none">
 
 
 
@@ -2898,8 +2872,7 @@ With other shortcodes
     </span>        
     
 </h2>
-<p><a href="https://www.typeitjs.com"   target="_blank">
-    TypeIt</a> is the most versatile JavaScript tool for creating typewriter effects on the planet. With a straightforward configuration, it allows you to type single or multiple strings that break lines, delete &amp; replace each other, and it even handles strings that contain complex HTML.</p>
+<p><a href="https://www.typeitjs.com" target="_blank">TypeIt</a> is the most versatile JavaScript tool for creating typewriter effects on the planet. With a straightforward configuration, it allows you to type single or multiple strings that break lines, delete &amp; replace each other, and it even handles strings that contain complex HTML.</p>
 <p>Blowfish implements a sub-set of TypeIt features using a <code>shortcode</code>. Write your text within the <code>typeit</code> shortcode and use the following parameters to configure the behavior you want.</p>
 <!-- prettier-ignore-start -->
 <table>
@@ -3029,8 +3002,7 @@ With other shortcodes
     </span>        
     
 </h2>
-<p>A shortcut to embed youtube videos using the <a href="https://github.com/paulirish/lite-youtube-embed"   target="_blank">
-    lite-youtube-embed</a> library. This library is a lightweight alternative to the standard youtube embeds, and it&rsquo;s designed to be faster and more efficient.</p>
+<p>A shortcut to embed youtube videos using the <a href="https://github.com/paulirish/lite-youtube-embed" target="_blank">lite-youtube-embed</a> library. This library is a lightweight alternative to the standard youtube embeds, and it&rsquo;s designed to be faster and more efficient.</p>
 <!-- prettier-ignore-start -->
 <table>
 <thead>
@@ -3060,8 +3032,7 @@ With other shortcodes
 </span></span></code></pre></div><lite-youtube videoid="SgXhGb-7QbU" playlabel="SgXhGb-7QbU" params=""></lite-youtube>
 
 <p><strong>Example 2:</strong></p>
-<p>You can use all of Youtube&rsquo;s <a href="https://developers.google.com/youtube/player_parameters#Parameters"   target="_blank">
-    player parameters</a> for the <code>params</code> variable, as demonstrated below:</p>
+<p>You can use all of Youtube&rsquo;s <a href="https://developers.google.com/youtube/player_parameters#Parameters" target="_blank">player parameters</a> for the <code>params</code> variable, as demonstrated below:</p>
 <blockquote>
 <p>This video will start after 130 seconds (2m10)</p>
 </blockquote>
@@ -3073,9 +3044,7 @@ With other shortcodes
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-md" data-lang="md"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">youtubeLite</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;SgXhGb-7QbU&#34;</span> <span class="na">label</span><span class="o">=</span><span class="s">&#34;Blowfish-tools demo&#34;</span> <span class="na">params</span><span class="o">=</span><span class="s">&#34;start=130&amp;end=10&amp;controls=0&#34;</span> <span class="p">&gt;</span>}}
 </span></span></code></pre></div><lite-youtube videoid="SgXhGb-7QbU" playlabel="SgXhGb-7QbU" params="start=130&amp;end=10&amp;controls=0"></lite-youtube>
 
-<p>More informations can be found on the <a href="https://github.com/paulirish/lite-youtube-embed/blob/master/readme.md#custom-player-parameters"   target="_blank">
-    youtubeLite GitHub repo</a> and Youtube&rsquo;s <a href="https://developers.google.com/youtube/player_parameters#Parameters"   target="_blank">
-    player parameters</a> page.</p>
+<p>More informations can be found on the <a href="https://github.com/paulirish/lite-youtube-embed/blob/master/readme.md#custom-player-parameters" target="_blank">youtubeLite GitHub repo</a> and Youtube&rsquo;s <a href="https://developers.google.com/youtube/player_parameters#Parameters" target="_blank">player parameters</a> page.</p>
 
         </div>
         
@@ -3220,7 +3189,8 @@ With other shortcodes
   <script type="text/javascript" src="/js/process.min.62060bb247f4de2b6dde45903668fefb68d792f365587605177b1227c0cf43588701edaca0cb40e2c8e2789bd5ce67c1d2a215b9fb258c3496a7cd25e7cb5fdf.js" integrity="sha512-YgYLskf03itt3kWQNmj&#43;&#43;2jXkvNlWHYFF3sSJ8DPQ1iHAe2soMtA4sjieJvVzmfB0qIVufsljDSWp80l58tf3w=="></script>
   
   
-</footer><div
+</footer>
+<div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
   data-url="http://localhost:1313/"

@@ -46,7 +46,7 @@ Beyond his previous roles, Shaoyi is currently serving as a military counselor. 
             <ul class="mt-0">
                 <li>HTML and CSS</li>
                 <li>PHP and MySQL</li>
-                <li>Information Visualization</li>
+                <li>Data Visualization</li>
                 <li>Graphic Design</li>
                 <li>Typesetting</li>
                 <li>Localization</li>
@@ -223,7 +223,8 @@ With other shortcodes
 
 {{< /timelinecustom >}} 
 ## Military Certification
-- **Psychological Operations Qualification Course Certification**, USAJFKSWCS - Jun 2018 [The[Summary Report](https://report.nat.gov.tw/ReportFront/ReportDetail/detail?sysId=C10700199)] 
+- **Program on Terrorism and Security Studies**, George C. Marshall European Center For Security Studies  
+- **Psychological Operations Qualification Course Certification**, USAJFKSWCS - Jun 2018 [The [Summary Report](https://report.nat.gov.tw/ReportFront/ReportDetail/detail?sysId=C10700199)] 
 - **American Language Course**, Defense Language Institute - Apr 2018
 - **Captain Career Course**, Political Warfare Education and Training Center - Dec 2017
 - Fire Manager Training, Army Engineering School - Nov 2012
@@ -249,7 +250,7 @@ Randomly share places I have been to. Hope you like it like I do. 😊
 {{< /typeit >}}
 
 
-**Taiwan**
+**🇹🇼Taiwan**
 {{< gallery >}}
   <img src="footprint/TW_TaitungDuoliang.jpg" class="grid-w33" />
   <img src="footprint/TW_HengchunSafari.jpg" class="grid-w33" />
@@ -262,7 +263,7 @@ Randomly share places I have been to. Hope you like it like I do. 😊
   <img src="footprint/TW_Parachute.jpg" class="grid-w33" />
 {{< /gallery >}}
 
-**Japan**
+**🇯🇵Japan**
 {{< gallery >}}
   <!-- <img src="footprint/JP_Houkokuji.jpg" class="grid-w33" /> -->
   <img src="footprint/JP_Kinkakuji.jpg" class="grid-w33" />
@@ -275,7 +276,7 @@ Randomly share places I have been to. Hope you like it like I do. 😊
   <img src="footprint/JP_ShojinPond.jpg" class="grid-w33" />
 {{< /gallery >}}  
 
-**United States**
+**🇺🇸United States**
 {{< gallery >}}
   <!-- <img src="footprint/US_NewOrlean.jpg" class="grid-w33" /> -->
   <img src="footprint/US_Huston.jpg" class="grid-w33" />
@@ -288,5 +289,24 @@ Randomly share places I have been to. Hope you like it like I do. 😊
   <!-- <img src="footprint/US_WWIIMuseum.jpg" class="grid-w33" /> -->
 {{< /gallery >}}
 
+**🇩🇪Germany**
+{{< gallery >}}
+  <img src="footprint/DE_ZugspitzeCableCar.jpeg" class="grid-w33" />
+  <img src="footprint/DE_Kriegergedächtniskapelle.jpeg" class="grid-w33" />
+  <img src="footprint/DE_Eibsee.jpeg" class="grid-w33" />
+  <img src="footprint/DE_BanksyMunich.jpeg" class="grid-w33" />
+  <img src="footprint/DE_AutomatedBorderControl.jpeg" class="grid-w33" />
+  <img src="footprint/DE_Adenauer.jpeg" class="grid-w33"/>
+{{< /gallery >}}
+
+**🇦🇹Austria**
+{{< gallery >}}
+  <img src="footprint/AT_TopofInnsbruck.jpeg" class="grid-w33" />
+  <img src="footprint/AT_Seegrube2.jpeg" class="grid-w33" />
+  <img src="footprint/AT_Seegrube.jpeg" class="grid-w33" />
+  <img src="footprint/AT_Inn.jpeg" class="grid-w33" />
+  <img src="footprint/AT_Hungerberg.jpeg" class="grid-w33" />
+  <img src="footprint/AT_AntonMayr.jpeg" class="grid-w33"/>
+{{< /gallery >}}
 
 

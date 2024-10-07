@@ -184,7 +184,7 @@
   
 </head>
 <body
-  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32">
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
   <div id="the-top" class="absolute flex self-center">
     <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
       href="#main-content"><span
@@ -484,13 +484,14 @@
           class="mt-4 order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
           <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-10">
     
-             <details open class="toc-right mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+             <details open id="TOCView"
+  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
   <summary
     class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
     Table of Contents
   </summary>
   <div
-    class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
     <li><a href="#introduction">Introduction</a></li>
@@ -525,8 +526,33 @@
   </div>
 </details>
 
- 
 <script>
+
+  var margin = 200;
+  var marginError = 50;
+
+  (function () {
+    var $window = $(window);
+    var $toc = $('#TOCView');
+    var tocHeight = $toc.height();
+
+    function onResize() {
+      var windowAndMarginHeight = $window.height() - margin;
+      if(tocHeight >= windowAndMarginHeight) {
+        $toc.css("overflow-y", "scroll")
+        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
+      } else {
+        $toc.css("overflow-y", "hidden")
+        $toc.css("max-height", "9999999px")
+      }
+    }
+
+    $window.on('resize', onResize);
+    $(document).ready(onResize);
+  })();
+
+
+
   (function () {
     var $toc = $('#TableOfContents');
     if ($toc.length > 0) {
@@ -563,8 +589,9 @@
       });
     }
   })();
-</script>
 
+
+</script>
    </div>
           </div>
           
@@ -590,8 +617,7 @@
 </h2>
 <p>Shaoyi Lai was a dedicated Public Affairs Officer adept at enhancing the military&rsquo;s public image through innovative communications, including press releases, print materials, and digital resources. He excels in building strong relationships with media professionals and social influencers to effectively relay defense-related policies.</p>
 <p>Beyond his previous roles, Shaoyi is currently serving as a military counselor. He also enjoys exploring his less-talented creative side as an amateur website and graphic designer, and his less-than-stellar musical talents.</p>
-<p><a href="https://voca.ro/12SteQV3fTDZ"   target="_blank">
-    📢 Pronounced Shàoyì in Mandarin</a></p>
+<p><a href="https://voca.ro/12SteQV3fTDZ" target="_blank">📢 Pronounced Shàoyì in Mandarin</a></p>
   <div class="w-full mt-10">
         <p class="mb-0">
 
@@ -642,7 +668,7 @@
             <ul class="mt-0">
                 <li>HTML and CSS</li>
                 <li>PHP and MySQL</li>
-                <li>Information Visualization</li>
+                <li>Data Visualization</li>
                 <li>Graphic Design</li>
                 <li>Typesetting</li>
                 <li>Localization</li>
@@ -801,8 +827,7 @@
     
 </h2>
 <ul>
-<li><strong>Shu–Min Hou,  Wen-Cheng Fu,  Shao–Yi Lai</strong>. “Exploring Information Warfare Strategies during the Russia–Ukraine War on Twitter.” <em>The Korean Journal of Defense Analysis</em>, 35(1):  pp.19 - 44. <a href="https://doi.org/10.22883/kjda.2023.35.1.002"   target="_blank">
-    DOI</a><div class="flex flex-row flex-wrap items-center space-x-2">
+<li><strong>Shu–Min Hou,  Wen-Cheng Fu,  Shao–Yi Lai</strong>. “Exploring Information Warfare Strategies during the Russia–Ukraine War on Twitter.” <em>The Korean Journal of Defense Analysis</em>, 35(1):  pp.19 - 44. <a href="https://doi.org/10.22883/kjda.2023.35.1.002" target="_blank">DOI</a><div class="flex flex-row flex-wrap items-center space-x-2">
 
 <div class="flex mt-2">
 <span
@@ -871,10 +896,8 @@
 </div>
 </div>
 </li>
-<li><strong>Su-Yu Chou, Shaoyi Lai. 2015</strong>. “The influence of virtual presence—Internet word-of-mouth and the image of the army in disaster relief.” <a href="https://gpi.culture.tw/books/1010402118"   target="_blank">
-    <em>The Third Military News Forum</em></a>.</li>
-<li><strong>Shaoyi Lai, Wenchun Kuo, Jenwei Wei, Chiahou Hung</strong>. 2015. “The current development and future recommendation to the online version of Youth Daily News.” <a href="https://gpi.culture.tw/books/1010402118"   target="_blank">
-    <em>The Third Military News Forum</em></a>.</li>
+<li><strong>Su-Yu Chou, Shaoyi Lai. 2015</strong>. “The influence of virtual presence—Internet word-of-mouth and the image of the army in disaster relief.” <a href="https://gpi.culture.tw/books/1010402118" target="_blank"><em>The Third Military News Forum</em></a>.</li>
+<li><strong>Shaoyi Lai, Wenchun Kuo, Jenwei Wei, Chiahou Hung</strong>. 2015. “The current development and future recommendation to the online version of Youth Daily News.” <a href="https://gpi.culture.tw/books/1010402118" target="_blank"><em>The Third Military News Forum</em></a>.</li>
 </ul>
 
 
@@ -1495,8 +1518,8 @@ With other shortcodes
     
 </h2>
 <ul>
-<li><strong>Psychological Operations Qualification Course Certification</strong>, USAJFKSWCS - Jun 2018 [The<a href="https://report.nat.gov.tw/ReportFront/ReportDetail/detail?sysId=C10700199"   target="_blank">
-    Summary Report</a>]</li>
+<li><strong>Program on Terrorism and Security Studies</strong>, George C. Marshall European Center For Security Studies</li>
+<li><strong>Psychological Operations Qualification Course Certification</strong>, USAJFKSWCS - Jun 2018 [The <a href="https://report.nat.gov.tw/ReportFront/ReportDetail/detail?sysId=C10700199" target="_blank">Summary Report</a>]</li>
 <li><strong>American Language Course</strong>, Defense Language Institute - Apr 2018</li>
 <li><strong>Captain Career Course</strong>, Political Warfare Education and Training Center - Dec 2017</li>
 <li>Fire Manager Training, Army Engineering School - Nov 2012</li>
@@ -1517,8 +1540,7 @@ With other shortcodes
     
 </h2>
 <ul>
-<li>Volunteer at <a href="https://g.co/kgs/2tpvQwh"   target="_blank">
-    Yunshui Community Development Association</a>, Chiayi, Taiwan from Aug 2018 to Present</li>
+<li>Volunteer at <a href="https://g.co/kgs/2tpvQwh" target="_blank">Yunshui Community Development Association</a>, Chiayi, Taiwan from Aug 2018 to Present</li>
 <li>Music performer at Da-Wo Veterans Home in Jan 2012</li>
 <li>Music performer at Banqiao Veterans Home in Jan 2011</li>
 <li>Music performer at Taoyuan Veterans Home in Sep 2010</li>
@@ -1552,7 +1574,7 @@ With other shortcodes
       }).go();
     });
 </script>
-<p><strong>Taiwan</strong>
+<p><strong>🇹🇼Taiwan</strong>
 
 
 <div id="gallery-a79fefc8a5eece969f91f1642bc9b3d9" class="gallery">
@@ -1568,7 +1590,7 @@ With other shortcodes
   <img src="footprint/TW_Parachute.jpg" class="grid-w33" />
 
 </div></p>
-<p><strong>Japan</strong>
+<p><strong>🇯🇵Japan</strong>
 
 
 <div id="gallery-c744b7d93554d00b89cd250542cf3fd6" class="gallery">
@@ -1584,7 +1606,7 @@ With other shortcodes
   <img src="footprint/JP_ShojinPond.jpg" class="grid-w33" />
 
 </div></p>
-<p><strong>United States</strong>
+<p><strong>🇺🇸United States</strong>
 
 
 <div id="gallery-1b8719074af2076f8f483e6934eebf0e" class="gallery">
@@ -1598,6 +1620,32 @@ With other shortcodes
   <img src="footprint/US_JFKAirport.jpg" class="grid-w33" />
   <img src="footprint/US_NYC.jpg" class="grid-w33"/>
   <!-- <img src="footprint/US_WWIIMuseum.jpg" class="grid-w33" /> -->
+
+</div></p>
+<p><strong>🇩🇪Germany</strong>
+
+
+<div id="gallery-65edf5e3ed42ffb9e852d6649885526a" class="gallery">
+  
+  <img src="footprint/DE_ZugspitzeCableCar.jpeg" class="grid-w33" />
+  <img src="footprint/DE_Kriegergedächtniskapelle.jpeg" class="grid-w33" />
+  <img src="footprint/DE_Eibsee.jpeg" class="grid-w33" />
+  <img src="footprint/DE_BanksyMunich.jpeg" class="grid-w33" />
+  <img src="footprint/DE_AutomatedBorderControl.jpeg" class="grid-w33" />
+  <img src="footprint/DE_Adenauer.jpeg" class="grid-w33"/>
+
+</div></p>
+<p><strong>🇦🇹Austria</strong>
+
+
+<div id="gallery-2ef8c37e2bededef47cf24a7cf98c0cc" class="gallery">
+  
+  <img src="footprint/AT_TopofInnsbruck.jpeg" class="grid-w33" />
+  <img src="footprint/AT_Seegrube2.jpeg" class="grid-w33" />
+  <img src="footprint/AT_Seegrube.jpeg" class="grid-w33" />
+  <img src="footprint/AT_Inn.jpeg" class="grid-w33" />
+  <img src="footprint/AT_Hungerberg.jpeg" class="grid-w33" />
+  <img src="footprint/AT_AntonMayr.jpeg" class="grid-w33"/>
 
 </div></p>
             </div>
@@ -1629,6 +1677,7 @@ With other shortcodes
 
 <section>
     
+
 
 
 </section>
@@ -1684,7 +1733,8 @@ With other shortcodes
   <script type="text/javascript" src="/js/process.min.62060bb247f4de2b6dde45903668fefb68d792f365587605177b1227c0cf43588701edaca0cb40e2c8e2789bd5ce67c1d2a215b9fb258c3496a7cd25e7cb5fdf.js" integrity="sha512-YgYLskf03itt3kWQNmj&#43;&#43;2jXkvNlWHYFF3sSJ8DPQ1iHAe2soMtA4sjieJvVzmfB0qIVufsljDSWp80l58tf3w=="></script>
   
   
-</footer><div
+</footer>
+<div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
   data-url="http://localhost:1313/"

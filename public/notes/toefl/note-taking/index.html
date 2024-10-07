@@ -107,7 +107,7 @@
     "keywords": ["TOEFL","ESL","note-taking"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "375"
+    "wordCount": "374"
   }]
   </script>
 
@@ -144,8 +144,8 @@
   <script
     defer
     type="text/javascript"
-    src="/js/mermaid.bundle.79fb2b63195059fdbfc56baebc147a42a4f1a8742d85e355e37f284c17866228b178f4bfc234a5ff7b807cca0907a189a1d6309159e50c112a9e82cabfc4c1f8.js"
-    integrity="sha512-efsrYxlQWf2/xWuuvBR6QqTxqHQtheNV438oTBeGYiixePS/wjSl/3uAfMoJB6GJodYwkVnlDBEqnoLKv8TB&#43;A=="
+    src="/js/mermaid.bundle.9aab96d44f6ac9568364d8bc6faeb1120a4f4f78a1742ecd23e9401160647174f0551e09453104173597409a0f0c89370fa03e70a58d337298934f9267a77c7c.js"
+    integrity="sha512-mquW1E9qyVaDZNi8b66xEgpPT3ihdC7NI&#43;lAEWBkcXTwVR4JRTEEFzWXQJoPDIk3D6A&#43;cKWNM3KYk0&#43;SZ6d8fA=="
   ></script>
 
 
@@ -200,7 +200,7 @@
   
 </head>
 <body
-  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32">
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
   <div id="the-top" class="absolute flex self-center">
     <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
       href="#main-content"><span
@@ -396,7 +396,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span>375 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <span>374 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -505,13 +505,14 @@
       class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
       <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-10">
 
-         <details open class="toc-right mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+         <details open id="TOCView"
+  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
   <summary
     class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
     Table of Contents
   </summary>
   <div
-    class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
     <li><a href="#basic-principles">Basic principles</a></li>
@@ -550,8 +551,33 @@
   </div>
 </details>
 
- 
 <script>
+
+  var margin = 200;
+  var marginError = 50;
+
+  (function () {
+    var $window = $(window);
+    var $toc = $('#TOCView');
+    var tocHeight = $toc.height();
+
+    function onResize() {
+      var windowAndMarginHeight = $window.height() - margin;
+      if(tocHeight >= windowAndMarginHeight) {
+        $toc.css("overflow-y", "scroll")
+        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
+      } else {
+        $toc.css("overflow-y", "hidden")
+        $toc.css("max-height", "9999999px")
+      }
+    }
+
+    $window.on('resize', onResize);
+    $(document).ready(onResize);
+  })();
+
+
+
   (function () {
     var $toc = $('#TableOfContents');
     if ($toc.length > 0) {
@@ -588,8 +614,9 @@
       });
     }
   })();
-</script>
 
+
+</script>
    </div>
       </div>
       
@@ -659,8 +686,7 @@
     </span>        
     
 </h2>
-<p>This is a memo I summarized from a <a href="%28https://www.youtube.com/watch?v=EXAbraAOdBQ%29"  >
-    youtube video</a>:</p>
+<p>This is a memo I summarized from a <a href="%28https://www.youtube.com/watch?v=EXAbraAOdBQ%29">youtube video</a>:</p>
 <ol>
 <li>Do not jot down every details
 <ul>
@@ -671,8 +697,7 @@
 </li>
 <li>Guess (anticipate) the questions
 <ul>
-<li>What is the <a href="https://www.youtube.com/watch?v=qI0YOyvLk50"   target="_blank">
-    question type</a>? (Prevent from taking UNNECESSARY notes)
+<li>What is the <a href="https://www.youtube.com/watch?v=qI0YOyvLk50" target="_blank">question type</a>? (Prevent from taking UNNECESSARY notes)
 <div class="mermaid" align="center">
   
 graph LR;
@@ -734,8 +759,7 @@ B-->C[? what are the corrections]
 <li><code>w/i</code> within</li>
 <li><code>b4</code> before</li>
 <li><code>P</code> after</li>
-<li><code>△</code> change (<a href="https://dictionary.cambridge.org/dictionary/english/delta"   target="_blank">
-    delta</a> in physics and mathmatics)</li>
+<li><code>△</code> change (<a href="https://dictionary.cambridge.org/dictionary/english/delta" target="_blank">delta</a> in physics and mathmatics)</li>
 </ul>
 
 
@@ -1015,7 +1039,8 @@ B-->C[? what are the corrections]
   <script type="text/javascript" src="/js/process.min.62060bb247f4de2b6dde45903668fefb68d792f365587605177b1227c0cf43588701edaca0cb40e2c8e2789bd5ce67c1d2a215b9fb258c3496a7cd25e7cb5fdf.js" integrity="sha512-YgYLskf03itt3kWQNmj&#43;&#43;2jXkvNlWHYFF3sSJ8DPQ1iHAe2soMtA4sjieJvVzmfB0qIVufsljDSWp80l58tf3w=="></script>
   
   
-</footer><div
+</footer>
+<div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
   data-url="http://localhost:1313/"
