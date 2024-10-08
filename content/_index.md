@@ -292,7 +292,7 @@ Randomly share places I have been to. Hope you like it like I do. 😊
 **🇩🇪Germany**
 {{< gallery >}}
   <img src="footprint/DE_ZugspitzeCableCar.jpeg" class="grid-w33" />
-  <img src="footprint/DE_Kriegergedächtniskapelle.jpeg" class="grid-w33" />
+  <img src="footprint/DE_Kriegergedachtniskapelle.jpeg" class="grid-w33" />
   <img src="footprint/DE_Eibsee.jpeg" class="grid-w33" />
   <img src="footprint/DE_BanksyMunich.jpeg" class="grid-w33" />
   <img src="footprint/DE_AutomatedBorderControl.jpeg" class="grid-w33" />
