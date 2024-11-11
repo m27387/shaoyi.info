@@ -1,17 +1,17 @@
 ---
-title: "Curriculum Vitae"
-description: "Shaoyi's Curriculum Vitae"
-date: 2019-03-11
-tags: ["personal", "resume", "CV"]
+title: "Shaoyi's Information"
+description: "Shaoyi's Information, his Curriculum Vitae, and other serendipities"
+date: 2024-11-11
+tags: ["personal", "resume", "CV", "curriculum vitae", "Lai Shaoyi", "Shaoyi Lai", "賴少逸"]
 # categories: ["Open-Source", "Blowfish"]
 type: 'homepage'
 ---
 
 
 ## Introduction
-Shaoyi Lai was a dedicated Public Affairs Officer adept at enhancing the military's public image through innovative communications, including press releases, print materials, and digital resources. He excels in building strong relationships with media professionals and social influencers to effectively relay defense-related policies.  
+Shaoyi Lai is a Psychological Operations Officer (and was a dedicated Public Affairs Officer as well) adept at enhancing the military's public image through innovative communications, including press releases, print materials, and digital resources. He excels in building strong relationships with media professionals and social influencers to effectively relay defense-related policies.  
   
-Beyond his previous roles, Shaoyi is currently serving as a military counselor. He also enjoys exploring his less-talented creative side as an amateur website and graphic designer, and his less-than-stellar musical talents.
+Beyond his previous roles, Shaoyi also enjoys exploring his less-talented creative side as an amateur website and graphic designer, and his less-than-stellar musical talents.
 
 [📢 Pronounced Shàoyì in Mandarin](https://voca.ro/12SteQV3fTDZ)
 
@@ -19,6 +19,7 @@ Beyond his previous roles, Shaoyi is currently serving as a military counselor. 
         <p class="mb-0">{{< icon "book-open-solid">}} &nbsp;Research Interests</p>
         <div class="customhome">
             <ul class="mt-0">
+                <li>Operations in the Information Environment</li>
                 <li>Information Advantages and Psychological Operations</li>
                 <li>Public Affairs and Media Relations</li>
                 <li>China Influence Operations</li>
@@ -105,8 +106,21 @@ Beyond his previous roles, Shaoyi is currently serving as a military counselor. 
  
 ## Experiences
 {{< timelinecustom >}}
+
+{{< timelinecustomItem icon="heart" header="Psychological Operations Officer" badge="Sep 2024 - Now" subheader="Army Command Headquarters">}}
+<p class="font-bold mb-0">Responsibilities</p>
+<div class="customhome">
+<ul>
+ <li>Coordinating international subject-matter experts exchanges</li>
+ <li>Mandarin Chinese and English Interpreter</li>
+ <li>Produce multimedia psychological operation products</li>
+ <li>Edit and compose governmental publications</li>
+ </ul>
+ </div>
+{{< /timelinecustomItem >}}
+
 <!-- 司令部營輔導長 -->
-{{< timelinecustomItem icon="shield-heart" header="Battalion Counselor" badge="Aug 2023 - Present" subheader="Army Command Headquarters" >}}
+{{< timelinecustomItem icon="shield-heart" header="Battalion Counselor" badge="Aug 2023 - Sep 2024" subheader="Army Command Headquarters" >}}
 <p class="font-bold mb-0">Responsibilities</p>
 <div class="customhome">
 <ul>
