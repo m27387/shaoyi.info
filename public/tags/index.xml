@@ -7,7 +7,77 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 </copyright>
-    <lastBuildDate>Tue, 14 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>http://localhost:1313/tags/curriculum-vitae/</link>
+      <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/curriculum-vitae/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>http://localhost:1313/tags/cv/</link>
+      <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/cv/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Lai Shaoyi</title>
+      <link>http://localhost:1313/tags/lai-shaoyi/</link>
+      <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/lai-shaoyi/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Personal</title>
+      <link>http://localhost:1313/tags/personal/</link>
+      <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/personal/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>http://localhost:1313/tags/resume/</link>
+      <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/resume/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Shaoyi Lai</title>
+      <link>http://localhost:1313/tags/shaoyi-lai/</link>
+      <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/shaoyi-lai/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>賴少逸</title>
+      <link>http://localhost:1313/tags/%E8%B3%B4%E5%B0%91%E9%80%B8/</link>
+      <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/%E8%B3%B4%E5%B0%91%E9%80%B8/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>ESL</title>
       <link>http://localhost:1313/tags/esl/</link>
@@ -134,46 +204,6 @@
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/shortcodes/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Curriculum Vitae</title>
-      <link>http://localhost:1313/tags/curriculum-vitae/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/curriculum-vitae/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>CV</title>
-      <link>http://localhost:1313/tags/cv/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/cv/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Personal</title>
-      <link>http://localhost:1313/tags/personal/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/personal/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Resume</title>
-      <link>http://localhost:1313/tags/resume/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/resume/</guid>
       <description></description>
       
     </item>
