@@ -3,49 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://shaoyi.info/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-11-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://shaoyi.info/notes/</loc>
+    <loc>http://localhost:1313/notes/</loc>
     <lastmod>2024-05-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://shaoyi.info/notes/toefl/listening/</loc>
+    <loc>http://localhost:1313/notes/toefl/listening/</loc>
     <lastmod>2024-05-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://shaoyi.info/notes/toefl/quick-facts/</loc>
+    <loc>http://localhost:1313/notes/toefl/quick-facts/</loc>
     <lastmod>2024-05-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://shaoyi.info/notes/toefl/speaking/</loc>
+    <loc>http://localhost:1313/notes/toefl/speaking/</loc>
     <lastmod>2024-05-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://shaoyi.info/notes/toefl/note-taking/</loc>
+    <loc>http://localhost:1313/notes/toefl/note-taking/</loc>
     <lastmod>2024-05-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://shaoyi.info/notes/notes/</loc>
+    <loc>http://localhost:1313/notes/git-cheatsheet/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://shaoyi.info/notes/shortcodes/</loc>
+    <loc>http://localhost:1313/notes/shortcodes/</loc>
     <lastmod>2020-08-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

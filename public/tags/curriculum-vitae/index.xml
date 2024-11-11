@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Curriculum Vitae on Shaoyi&#39;s Information</title>
-    <link>https://shaoyi.info/tags/curriculum-vitae/</link>
+    <link>http://localhost:1313/tags/curriculum-vitae/</link>
     <description>Recent content in Curriculum Vitae on Shaoyi&#39;s Information</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 </copyright>
-    <lastBuildDate>Mon, 11 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://shaoyi.info/tags/curriculum-vitae/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2024 Shaoyi Lai</copyright>
+    <lastBuildDate>Mon, 11 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/curriculum-vitae/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shaoyi&#39;s Information</title>
-      <link>https://shaoyi.info/</link>
+      <link>http://localhost:1313/</link>
       <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://shaoyi.info/</guid>
+      <guid>http://localhost:1313/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;Introduction 
     &lt;div id=&#34;introduction&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     

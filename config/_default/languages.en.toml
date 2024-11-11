@@ -13,7 +13,7 @@ title = "Shaoyi's Information"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
-[author]
+[params.author]
   name = "Shaoyi Lai"
   image = "img/author/shaoyi.png"
   headline = "I'm only human"
