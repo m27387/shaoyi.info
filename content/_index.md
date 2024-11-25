@@ -9,9 +9,11 @@ type: 'homepage'
 
 
 ## Introduction
-Shaoyi Lai is a Psychological Operations Officer (and was a dedicated Public Affairs Officer as well) adept at enhancing the military's public image through innovative communications, including press releases, print materials, and digital resources. He excels in building strong relationships with media professionals and social influencers to effectively relay defense-related policies.  
-  
-Beyond his previous roles, Shaoyi also enjoys exploring his less-talented creative side as an amateur website and graphic designer, and his less-than-stellar musical talents.
+Shaoyi Lai is a Psychological Operations Officer and former dedicated Public Affairs Officer, skilled at enhancing the military’s public image through innovative communications, including press releases, print materials, and digital resources. He excels in building strong relationships with media professionals and social influencers to effectively communicate defense policies.
+
+In addition to his communication expertise, Shaoyi is highly knowledgeable in PRC's Influence Operations and Operations in the Information Environment, leveraging his analytical and strategic skills to counter disinformation and shape public perception in complex geopolitical contexts. His insights into these fields reflect a deep understanding of the dynamic and evolving nature of modern information warfare.
+
+Beyond his professional roles, Shaoyi enjoys exploring his creative side as an amateur website and graphic designer and occasionally dabbles in music, though he humbly acknowledges his limited talents.
 
 [📢 Pronounced Shàoyì in Mandarin](https://voca.ro/12SteQV3fTDZ)
 
@@ -104,7 +106,7 @@ Beyond his previous roles, Shaoyi also enjoys exploring his less-talented creati
 - **Su-Yu Chou, Shaoyi Lai. 2015**. “The influence of virtual presence—Internet word-of-mouth and the image of the army in disaster relief.” [_The Third Military News Forum_](https://gpi.culture.tw/books/1010402118).
 - **Shaoyi Lai, Wenchun Kuo, Jenwei Wei, Chiahou Hung**. 2015. “The current development and future recommendation to the online version of Youth Daily News.” [_The Third Military News Forum_](https://gpi.culture.tw/books/1010402118).
  
-## Experiences
+## Experience
 {{< timelinecustom >}}
 
 {{< timelinecustomItem icon="heart" header="Psychological Operations Officer" badge="Sep 2024 - Now" subheader="Army Command Headquarters">}}
@@ -171,7 +173,7 @@ Beyond his previous roles, Shaoyi also enjoys exploring his less-talented creati
  </div>
 {{< /timelinecustomItem >}}
 
-{{< timelinecustomItem icon="heart" header="Counselor and Platoon Leader" badge="Jul 2012 - Aug 2014" subheader="Army 257th Infantry Brigade">}}
+{{< timelinecustomItem icon="heart" header="Company Counselor and Platoon Leader" badge="Jul 2012 - Aug 2014" subheader="Army 257th Infantry Brigade">}}
 <p class="font-bold mb-0">Responsibilities</p>
 <div class="customhome">
 <ul>
