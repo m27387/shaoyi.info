@@ -9,7 +9,7 @@ type: 'homepage'
 
 
 ## Introduction
-Shaoyi Lai is a Psychological Operations Officer and former dedicated Public Affairs Officer, skilled at enhancing the military’s public image through innovative communications, including press releases, print materials, and digital resources. He excels in building strong relationships with media professionals and social influencers to effectively communicate defense policies.
+Shaoyi Lai is a dedicated Public Affairs Officer, skilled at enhancing the military’s public image through innovative communications, including press releases, print materials, and digital resources. He excels in building strong relationships with media professionals and social influencers to effectively communicate defense policies.
 
 In addition to his communication expertise, Shaoyi is highly knowledgeable in PRC's Influence Operations and Operations in the Information Environment, leveraging his analytical and strategic skills to counter disinformation and shape public perception in complex geopolitical contexts. His insights into these fields reflect a deep understanding of the dynamic and evolving nature of modern information warfare.
 
